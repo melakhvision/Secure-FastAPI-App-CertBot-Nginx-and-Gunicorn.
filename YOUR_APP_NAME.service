@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=demo
 Group=www-data
-WorkingDirectory=/home/your_fastapi_app_directory
-ExecStart=/home/your_fastapi_app_directory/bin/gunicorn -c gunicorn_conf.py app:app
+WorkingDirectory=/root/fastapi/fast-api-dev
+ExecStart=/root/fastapi/fast-api-dev/bin/gunicorn -c gunicorn_conf.py main:app
 
 [Install]
 WantedBy=multi-user.target
