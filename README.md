@@ -7,3 +7,6 @@ You can use any of the following configuration Files as follows.
 
 1. The NGINX Web Configuration File 
 2. The GUNICORN Service File
+
+Create a service on your ubuntu server
+cd /etc/systemd/system
